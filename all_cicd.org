@@ -1,0 +1,67 @@
+* 전사 통합 ci/cd
+** jira 배제 
+*** redmine 
+**** jira versioning
+**** issue 관리
+**** 변경관리 
+**** 승인프로세스 
+*** 환경 구성
+**** 개발젠킨스에 redmine -> 적용시 sandbox 
+**** local pc poc
+**** redmine plugin 
+** svn
+** git
+** jenkins
+** nexus
+** rundeck
+** 
+** 신규 기능 개발이 필요한 부분
+*** 현재 개선할 부분 
+*** jira - redmine
+**** 익숙해져 있는 부분에 대해 어떻게 상호 confirm 이 되는지  
+***** as-is / to-be
+***** 장표로 comm
+**** jira 사용하고 있는 feature 확인 
+***** release 관리 
+***** issue 관리 
+***** 변화 관리
+****** svn/repository integration
+***** 승인 프로세스 
+****** 여러 오픈소스 
+**** 개선해야 될 부분
+***** 승인 프로세스 
+***** branch 전략 
+***** 유지보수 
+***** 가이드 문서 
+***** kowledge asset
+***** devops
+***** test 자동화
+*** 승인 프로세스 
+*** ci/cd 
+**** cd 승인 
+*** 
+*** branch 전략 
+*** 관리 체계 
+**** 중앙관리 체계 
+*** 
+** 현재 운영에서 어려웠던 부분
+*** trouble shooting / r&r, 반복되는 트러블 슈팅
+*** 가이드 문서 -> 계속 발전하는 가이드 문서 
+*** 불만 배포 없을 때도 밤세야 되야 되는 부분 
+**** 관리 체계 -> 중앙 관리 체계 
+*** 관련 된 팀에서 자체 trouble shooting 능력 배양
+*** admin권한을 못 받는거 
+*** jira 프로젝트 생성/customizing
+*** 매뉴얼 
+*** 
+* trouble shooting 
+** 업무 비중? 60%
+** knowledge base 
+*** google -> stackoverflow (knowledge base)
+*** namu wiki 
+*** fail 
+**** java.lang.NullPointerException timeout
+**** wiki case별로 저장을 해놓고 
+**** wiki 등 트러블슈팅 60% 
+**** jenkins 상단에 검색창 -> knowledge base
+     
